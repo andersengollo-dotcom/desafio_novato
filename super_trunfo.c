@@ -32,13 +32,13 @@ scanf("%d", &pontos_turisticos);
 
 
 printf("\nCadastro realizado. Confira os dados abaixo: \n");
-printf("Letra do Estado: %c\n\n", letra_estado);
-printf("Código da Carta: %s\n\n", codigo_da_carta);
-printf("Nome da cidade: %s\n\n", nome_da_cidade);
-printf("População: %d habitantes\n\n", populacao);
-printf("Área: %.2fKm²\n\n", area);
-printf("PIB (em reais): R$ %.2f milhões de reais\n\n", PIB);
-printf("Quantidade de pontos turísticos: %d\n\n", pontos_turisticos);
+printf("- Letra do Estado: %c\n\n", letra_estado);
+printf("- Código da Carta: %s\n\n", codigo_da_carta);
+printf("- Nome da cidade: %s\n\n", nome_da_cidade);
+printf("- População: %d habitantes\n\n", populacao);
+printf("- Área: %.2fKm²\n\n", area);
+printf("- PIB (em reais): R$ %.2f milhões de reais\n\n", PIB);
+printf("- Quantidade de pontos turísticos: %d\n\n", pontos_turisticos);
 
 
 return 0;
